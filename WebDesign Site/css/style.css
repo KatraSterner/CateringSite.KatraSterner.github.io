@@ -1,0 +1,393 @@
+/* -------------------- ALL PAGES ---------------------- */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+
+    background-color: #fff6e8;
+    color: #0b0033;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    color: #fff6e8;
+    background: 
+        linear-gradient(to right, #832232, #832232d1, #83223200),
+        url("../food-imgs/fingerFood.jpg") center/cover no-repeat;
+    padding: 10px;
+
+    position: fixed;
+    left: 0px;
+    right: 0px;
+}
+
+h1 {
+    font-family: Georgia, serif; 
+}
+
+h2 {
+    font-family: Georgia, serif; 
+    color: #520048;
+}
+h3 {
+    font-family: Georgia, serif;
+    color: #520048;
+    font-size: large;
+}
+
+p {
+    font-size: small;
+    color:#832232;
+}
+
+::-webkit-scrollbar {
+    background-color:#ce8964;
+}
+::-webkit-scrollbar-thumb {
+    background-color:#832232;
+    border: solid #ce8964 2px;
+}
+
+.page-head {
+    margin-top: 135px;
+
+    padding-right: 10px;
+    padding-left: 10px;
+    border: solid #ce8964 1px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px;
+    background-color:#fff6e8;
+}
+nav a {
+    margin: 5px;
+    padding: 3px;
+    color:#520048;
+    text-decoration: none;
+    text-justify: center;
+    font-size: medium;
+}
+nav a:hover {
+    padding: 5px;
+    color:#ce8964
+}
+.hamb-menu {
+    width: 50px;
+    display: none;
+}
+
+
+.mobile-nav {
+    border: solid #ce8964 1px;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+
+hr{
+    border:#ce8964 dashed 1px;
+    margin: 10px;
+}
+
+/* ------------------- HOME PAGE ----------------------- */
+#home-main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+/* -- CHEFS -- */
+#home-right {
+    padding: 10px;
+    border: solid #ce8964 1px;
+    overflow-x: hidden;
+    min-width:fit-content;
+
+    margin-top: 135px;
+}
+.chef-card {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 60px;
+}
+.chef-card img:first-of-type {
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.chef-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+.chef-card p {
+    color: #832232;
+    font-size: smaller;
+}
+.chef-text {
+    display: grid;
+    grid-template-rows: 30% 25%;
+    align-items: center;
+    padding-left: 10px;
+    font-size: small;
+}
+
+/* --- CATEGORIES --- */
+#home-categories {
+    display: flex;
+    overflow-x: scroll;
+}
+.category-card {
+    padding: 5px;
+}
+.category-card img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.category-card p {
+    text-align: center;
+}
+
+/* --- OUR FAVORITES + MENU SAMPLE --- */
+.items-row {
+    display: flex;
+    overflow-x: scroll;
+}
+.menu-card {
+    width: 175px;
+    margin: 5px;
+}
+.menu-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+.menu-card p {
+    font-weight: bold;
+}
+.menu-card ul {
+    color:#832232;
+    font-size:smaller;
+    padding-left: 10px;
+}
+
+#home-content {
+    border: solid #ce8964 1px;
+    padding: 10px;
+}
+
+/* ------------------- CONTACT PAGE -------------------- */
+#booking-main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+/* --- FORM --- */
+#booking-form {
+    border: solid #ce8964 1px;
+
+    height: 64%;
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 10px;
+    padding: 10px;
+    padding-right: 20px;
+}
+.booking-input {
+    background-color: white;
+    border: solid #ce8964 2px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#832232;
+    font-size:medium;
+
+    padding: 5px;
+}
+.booking-input::placeholder {
+    color:#ce8964;
+}
+#information {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    resize: none;
+}
+.submit-button {
+    background-color: #520048;
+    color:#fff6e8;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-size: medium;
+
+    grid-column-start: 2;
+    width: 50%;
+    height: fit-content;
+    justify-self: end;
+    align-self: end;
+}
+.submit-button:hover {
+    background-color: #ce8964;
+}
+
+/* --- CONTACT --- */
+#contact-info {
+    margin-top: 135px;
+    border: solid #ce8964 1px;
+    padding: 10px;
+}
+.contact-info-head {
+    font-weight: bold;
+    font-family: Georgia, serif;
+    font-size: medium;
+    margin: 5px;
+}
+.contact-info {
+    padding-left: 15px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+#email-us::placeholder {
+    color:#ce8964;
+}
+#email-us {
+    resize: none;
+
+    background-color: white;
+    border: solid #ce8964 2px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#832232;
+    font-size:medium;
+
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#contact-form .submit-button {
+    width: 100%
+}
+
+
+/* --------------- PRODUCT / MENU PAGE ----------------- */
+#product-main {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+/* MENU */
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+
+    border: solid #ce8964 1px;
+    padding: 10px;
+}
+
+/* CATEGORIES */
+#menu-categories {
+    margin-top: 135px;
+    padding-top: 0px;
+    padding: 10px;
+
+    border: solid #ce8964 1px;
+}
+#category-box {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* ---------------------- FOOTER ----------------------- */
+footer {
+    background-color: #832232;
+    padding: 10px;
+}
+footer p {
+    color:#fff6e8
+}
+
+/* _________________________________________ MOBILE ___________________________________________ */
+@media screen and (max-width: 395px) {
+    .menu-card img {
+        width: 125px;
+        height: 125px;
+        object-fit: cover;
+        border-radius: 15%;
+    }
+    .menu-card {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+   
+    .main-nav a { 
+        display: none;
+    }
+    .hamb-menu {
+        display: flex;
+    }
+    
+    #product-main {
+        display: flex;
+    }
+    .menu-items {
+        justify-content: center;
+    }
+    #menu-categories {
+        display: none;
+    }
+
+
+    #booking-main {
+        display: flex;
+        flex-direction: column;
+    }
+    #booking-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .booking-input {
+        line-height: 30px;
+    }
+    .submit-button {
+        font-size: large;
+    }
+    #contact-info {
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 750px) {
+    #contact-info h3 {
+        font-size: medium
+    }
+    .submit-button {
+        width: 100%
+    }
+
+    #home-main {
+        display: flex;
+        flex-direction: column;
+    }
+    #home-right {
+        margin: 0;
+    }
+}
+

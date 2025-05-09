@@ -1,0 +1,184 @@
+{
+    "items": [
+        {
+            "image":"../food-imgs/berrySmoothie.jpg",
+            "name": "Blackberry Batches",
+            "list": [
+                "Blackberries",
+                "Fresh Mint Leaves",
+                "Crushed Ice",
+                "Natural Sugar"
+            ]
+        },
+        {
+            "image":"../food-imgs/chickenWings.jpg",
+            "name": "BBQ Wings",
+            "list": [
+                "Garlic parm",
+                "Lemon pepper",
+                "Classic BBQ",
+                "Hot Habanero"
+            ]
+        },
+        {
+            "image":"../food-imgs/popcorn.jpg",
+            "name": "Movie Popcorn",
+            "list": [
+                "Classic popcorn",
+                "Butter topping",
+                "Cheese topping",
+                "classic containers"
+            ]
+        },
+        {
+            "image":"../food-imgs/sweetsSpread.jpg",
+            "name": "Spring Sweets",
+            "list": [
+                "Grass glaze",
+                "Fresh-fazed sliders",
+                "Comin-up cakes",
+                "Refreshers"
+            ]
+        },
+        {
+            "image":"../food-imgs/strawberryCake.jpg",
+            "name": "Frescas Cakes",
+            "list": [
+                "Strawberry cake",
+                "Strawberry icing",
+                "Cream cheese filling",
+                "Fresh strawberry top"
+            ]
+        },
+        {
+            "image":"../food-imgs/halloweenSpread.jpg",
+            "name": "Halloween Special!",
+            "list": [
+                "Finger-Dogs",
+                "Mummy Cookies",
+                "Pumpkin Wrap-ups",
+                "Boo-Bakes"
+            ]
+        },
+        {
+            "image":"../food-imgs/fruitBowl.jpg",
+            "name": "Summer Fruit Bowls",
+            "list": [
+                "Mango option",
+                "Berry option",
+                "Citrus option",
+                "Mix option"
+            ]
+        },
+        {
+            "image":"../food-imgs/pancakes.jpg",
+            "name": "Royal Pancakes",
+            "list": [
+                "Buttermilk Pancakes",
+                "Caramel Syrup",
+                "Maple Syrup",
+                "Fruit Toppings"
+            ]
+        },
+        {
+            "image":"../food-imgs/RGBDrinks.jpg",
+            "name": "RBG Cocktail Bar",
+            "list": [
+                "Berry mix-ups",
+                "Mango Malts",
+                "Mosquito Bites",
+                "Limon Ade"
+            ]
+        },
+        {
+            "image":"../food-imgs/pulledPork.jpg",
+            "name": "Grad Party Pork",
+            "list": [
+                "Charcoal Bun",
+                "Roasted-Pulled Pork",
+                "Pickle Toppers",
+                "Barbie Queue Sauce"
+            ]
+        },
+        {
+            "image":"../food-imgs/chocoCake.jpg",
+            "name": "Choco CupCakes",
+            "list": [
+                "Double Choco Frosting",
+                "Cream Cheese Frosting",
+                "Choco Sprinkles",
+                "Moist Choco Cake"
+            ]
+        },
+        {
+            "image":"../food-imgs/fingerFood.jpg",
+            "name": "Fnger Grabbies!",
+            "list": [
+                "Twist Tooth Picks",
+                "Roasted Tomato Toast",
+                "Pickled Olive Spikes",
+                "French Cheese Spread"
+            ]
+        },
+        {
+            "image":"../food-imgs/pasta.jpg",
+            "name": "Pasta Fresco",
+            "list": [
+                "Angel Spaghetti",
+                "Roasted Tomato Sauce",
+                "Roasted Spinach",
+                "Mozzarella Toppings"
+            ]
+        },
+        {
+            "image":"../food-imgs/charcuterie.jpg",
+            "name": "Charcuterie Board",
+            "list": [
+                "Ghouda Spread",
+                "Fresh Fruit",
+                "Caprese Salad",
+                "Assorted Shaved Meats"
+            ]
+        },
+        {
+            "image":"../food-imgs/cherryDrink.jpg",
+            "name": "Cherry Fizzers",
+            "list": [
+                "Maraschino Cherries",
+                "Fizzy Soda",
+                "Blue option",
+                "Orange option"
+            ]
+        },
+        {
+            "image":"../food-imgs/orangeCreamCake.jpg",
+            "name": "Orange Cream Dreamies",
+            "list": [
+                "Dark Choco Cake",
+                "Orange Dream Frosting",
+                "Velvet Sprinkles",
+                "Fresh Orange Zest"
+            ]
+        },
+        {
+            "image":"../food-imgs/pastaSalad.jpg",
+            "name": "Pasta Salad",
+            "list": [
+                "Penne Pasta",
+                "Cherry Tomatoes",
+                "Salad Dressing",
+                "Fresh Bell Peppers"
+            ]
+        },
+        {
+            "image":"../food-imgs/cowboyCaviar.jpg",
+            "name": "Cowboy Caviar",
+            "list": [
+                "Garbanzo Beans",
+                "Bell Peppers",
+                "Diced Tomatoes",
+                "Quinoa"
+            ]
+        }
+    ]
+}
